@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 
-class RootApp extends Component {
+export class RootApp extends Component {
     render() {
         return (
             <div>
-                Helo
+                Helo world great
             </div>
         );
     }
